@@ -40,7 +40,7 @@ cmake -DCMAKE_BUILD_TYPE=Release -DRPI3_BUILD=TRUE -DAASDK_INCLUDE_DIRS="/home/p
 make -j4
 
 # Enabling OpenAuto autostart
-echo "sudo /home/pi/openauto/bin/autoapp" >> /home/pi/.config/lxsession/LXDE-pi/autostart
+# echo "sudo /home/pi/openauto/bin/autoapp" >> /home/pi/.config/lxsession/LXDE-pi/autostart
 
 # Starting OpenAuto
 whiptail --title "OpenAuto RPi" --msgbox "Strating OpenAuto" 8 78
